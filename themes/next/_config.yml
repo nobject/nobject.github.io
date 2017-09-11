@@ -77,7 +77,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
 scheme: Gemini
@@ -168,7 +168,7 @@ sidebar:
 
   # Scroll percent label in b2t button
   scrollpercent: false
-  
+
   # Enable sidebar on narrow view
   onmobile: false
 
@@ -189,8 +189,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 250
 
 # Post meta display settings
 post_meta:
@@ -231,7 +231,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -242,7 +242,7 @@ android_chrome_color: "#222"
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
+  enabled: true
   image:
 
 # Code Highlight theme
@@ -323,7 +323,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
 
@@ -352,7 +352,7 @@ changyan:
 ##  type: button
 
 # Share
-#jiathis:
+jiathis:
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -488,7 +488,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -543,7 +543,7 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
